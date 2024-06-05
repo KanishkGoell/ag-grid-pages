@@ -6,6 +6,8 @@
   
   "private": true,
   
+  "homepage": "https://kanishkgoell.github.io/ag-grid-pages",
+  
   "dependencies": {
   
     
@@ -33,7 +35,7 @@
   "react-dom": "^18.3.1",
   
     
-  "react-scripts": "5.0.1",
+  "react-scripts": "^3.0.1",
   
     
   "web-vitals": "^2.1.4"
@@ -41,6 +43,12 @@
   },
   
   "scripts": {
+  
+    
+  "predeploy": "npm run build",
+  
+    
+  "deploy": "gh-pages -b gh-pages -d build",
   
     
   "start": "react-scripts start",

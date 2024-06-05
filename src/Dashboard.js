@@ -14,7 +14,7 @@ const Dashboard = () => {
                     </div>
                 </div>
                 <div className="header-content">
-                    <img src="/logo.png" alt="Company Logo" className="logo" /> {/* Ensure you have a logo image in your public folder */}
+                    <img src="public/logo.png" alt="Company Logo" className="logo" /> {/* Ensure you have a logo image in your public folder */}
                     <nav>
                         <ul>
                             <li><a href="#home">Home</a></li>
