@@ -74,7 +74,7 @@ const dateComparator = (filterLocalDateAtMidnight, cellValue) => {
 
 // Fetching data and parsing numbers
 useEffect(() => {
-    fetch('public/data.json')
+    fetch('./data.json')
         .then(response => response.json())
         .then(data => {
             const typedData = data.map(item => ({
